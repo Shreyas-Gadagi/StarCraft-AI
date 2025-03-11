@@ -155,3 +155,5 @@ class MiniGameRLAgent(base_agent.BaseAgent):
             )
 
         return actions.FunctionCall(actions.FUNCTIONS.no_op.id, [])
+
+# implemented Q-learning tweaks
